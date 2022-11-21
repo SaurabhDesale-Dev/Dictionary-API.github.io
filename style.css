@@ -1,0 +1,55 @@
+body {
+  color: #f7f7f7;
+  background-color: #404258;
+}
+.main-container {
+  width: 500px;
+  height: 500px;
+  background-color: #393e46;
+  margin: 10% auto 0 auto;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #ba94d1;
+}
+
+.sub-container {
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  left: 25px;
+  text-align: center;
+}
+.input-group {
+  position: absolute;
+  top: 20px;
+}
+.word {
+  position: absolute;
+  top: 150px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  left: 25%;
+}
+.meaning-one {
+  position: absolute;
+  top: 280px;
+  width: 450px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.word-meaning {
+  position: absolute;
+  top: 220px;
+  left: 30%;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.btn {
+  margin-left: 10px;
+}
+.btn:hover {
+  background-color: #ba94d1;
+  color: #fff;
+}
